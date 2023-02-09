@@ -9,6 +9,7 @@ Controller, and View are the three packages comprising the src folder. The test 
 test classes for all the src classes.
 
 Model:
+
 Model contains five interfaces: IPixel, Image, ImageProcessorModelState, ImageProcessorModel, and
 MaskProcessorModel.
 
@@ -59,6 +60,7 @@ interface. In this class, there are four methods that support image manipulation
 filtering, color transformations, and component visualizations.
 
 Controller:
+
 Controller contains three interfaces: Command, Controller, and Features.
 
 Command is an interface that handles the execution of different methods on an image. This is a
@@ -106,7 +108,10 @@ image.
 
 For HW06, a new package called util has been added.
 Util:
-Util contains one class: Utils. Utils is a utility class built to reduce overlaps of codes between
+
+Util contains one class: Utils.
+
+Utils is a utility class built to reduce overlaps of codes between
 different parts of the project such as image processing of ppm and BufferedImage. Here, we have
 three methods: ppmToImage, othersToImage, and toBufferedImage. ppmToImage is a utility
 that generates an image of a ppm file using its path and name. This is adapted from the provided
@@ -118,6 +123,7 @@ pixels to produce an image.
 
 For HW06, an implementation of the view has been added.
 View:
+
 View contains two interfaces: ImageProcessorView and ImageProcessorGUIView.
 
 ImageProcessorView is an interface allowing the user to view outputs produced an image processor.
