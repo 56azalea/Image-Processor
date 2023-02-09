@@ -107,6 +107,7 @@ method to support the ability of applying any of the existing image manipulation
 image.
 
 For HW06, a new package called util has been added.
+
 Util:
 
 Util contains one class: Utils.
@@ -122,6 +123,7 @@ toBufferedImage is a utility to create a bufferedImage from an image object. It 
 pixels to produce an image.
 
 For HW06, an implementation of the view has been added.
+
 View:
 
 View contains two interfaces: ImageProcessorView and ImageProcessorGUIView.
@@ -143,6 +145,7 @@ ImageProcessorGUIViewImpl has been slightly changed to support a preview mode an
 functionality in the GUI.
 
 Main:
+
 Main is a class that basically runs the image processor application. It takes in a command line
 argument to allow the performance of the image processor. The method inside the main class is also
 called main. The main method used to just construct a controller that takes in System.in as the
