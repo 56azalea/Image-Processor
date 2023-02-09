@@ -1,0 +1,54 @@
+load dog.jpg dog
+brighten dog 10 dog-brighten
+save dog-brighten.png dog-brighten
+brighten dog 10 mask.png dog-mask-brighten
+save dog-mask-brighten.png dog-mask-brighten
+red-component dog dog-red
+save dog-red.jpg dog-red
+red-component dog mask.png dog-mask-red
+save dog-mask-red.jpg dog-mask-red
+green-component dog dog-green
+save dog-green.jpg dog-green
+green-component dog mask.png dog-mask-green
+save dog-mask-green.jpg dog-mask-green
+blue-component dog dog-blue
+save dog-blue.png dog-blue
+blue-component dog mask.png dog-mask-blue
+save dog-mask-blue.png dog-mask-blue
+value-component dog dog-value
+save dog-value.jpg dog-value
+value-component dog mask.png dog-mask-value
+save dog-mask-value.jpg dog-mask-value
+intensity-component dog dog-intensity
+save dog-intensity.ppm dog-intensity
+intensity-component dog mask.png dog-mask-intensity
+save dog-mask-intensity.ppm dog-mask-intensity
+luma-component dog dog-luma
+save dog-luma.jpg dog-luma
+luma-component dog mask.png dog-mask-luma
+save dog-mask-luma.jpg dog-mask-luma
+horizontal-flip dog dog-horizontal
+save dog-horizontal.bmp dog-horizontal
+vertical-flip dog dog-vertical
+save dog-vertical.bmp dog-flip
+blur dog dog-blur
+save dog-blur.jpg dog-blur
+blur dog mask.png dog-mask-blur
+save dog-mask-blur.jpg dog-mask-blur
+sharpen dog dog-sharpen
+save dog-sharpen.jpg dog-sharpen
+sharpen dog mask.png dog-mask-sharpen
+save dog-mask-sharpen.jpg dog-mask-sharpen
+greyscale dog dog-greyscale
+save dog-greyscale.jpg dog-greyscale
+greyscale dog mask.png dog-mask-greyscale
+save dog-mask-greyscale.jpg dog-mask-greyscale
+sepia dog dog-sepia
+save dog-sepia.png dog-sepia
+sepia dog mask.png dog-mask-sepia
+save dog-mask-sepia.png dog-mask-sepia
+downscale 0.3 0.7 dog dog-downscale1
+save dog-downscale1.jpg dog-downscale1
+downscale 0.56 0.27 dog dog-downscale2
+save dog-downscale2.jpg dog-downscale2
+q
