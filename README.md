@@ -9,7 +9,7 @@ both text-based and interactive GUI(Graphical User Interface)-based user interfa
 Controller, and View are the three packages comprising the src folder. The test folder contains the
 test classes for all the src classes.
 
-## Model:
+## Model
 
 Model contains five interfaces: IPixel, Image, ImageProcessorModelState, ImageProcessorModel, and
 MaskProcessorModel.
@@ -60,7 +60,7 @@ MaskProcessorModelImpl is also a new class that has been added to implement the 
 interface. In this class, there are four methods that support image manipulations of brighten,
 filtering, color transformations, and component visualizations.
 
-## Controller:
+## Controller
 
 Controller contains three interfaces: Command, Controller, and Features.
 
@@ -109,7 +109,7 @@ image.
 
 For HW06, a new package called util has been added.
 
-## Util:
+## Util
 
 Util contains one class: Utils.
 
@@ -125,7 +125,7 @@ pixels to produce an image.
 
 For HW06, an implementation of the view has been added.
 
-## View:
+## View
 
 View contains two interfaces: ImageProcessorView and ImageProcessorGUIView.
 
@@ -145,7 +145,7 @@ produces four different overlapped graphs: R, G, B, Intensity. For HW08, the con
 ImageProcessorGUIViewImpl has been slightly changed to support a preview mode and expose this
 functionality in the GUI.
 
-## Main:
+## Main
 
 Main is a class that basically runs the image processor application. It takes in a command line
 argument to allow the performance of the image processor. The method inside the main class is also
@@ -188,7 +188,7 @@ For HW08, there has been a small modification in the code to add the mask featur
 program. At line 33, we changed the ImageProcessorModel to MaskProcessorModel and made it implement
 new MaskProcessorModelImpl() instead of ImageProcessorModelImpl().
 
-## Image Citation:
+## Image Citation
 The house.ppm file was obtained from here:
 https://www.cs.cornell.edu/courses/cs664/2003fa/images/.
 The webpage source for this ppm file was found through searching "ppm image download" on Google
