@@ -155,6 +155,7 @@ System.in to determine what to demonstrate in System.out. In order to run the ap
 main, type the following script command (The part of the line after the '#' symbol are comments
 shown only for illustration):
 #load house.ppm and call it "house"
+
 'load res/house.ppm house'
 
 #brighten house by adding 10
