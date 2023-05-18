@@ -1,3 +1,7 @@
+`This is a code snippet`
+> This is a blockquote
+
+
 Image Processor made by Serin (Serena) Jeon & Dahye Jin
 
 This is an image processor application, which allows the user to load an image, alter the image
