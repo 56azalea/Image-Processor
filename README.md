@@ -154,27 +154,34 @@ input. This accepts a command line argument in a list of strings format and read
 System.in to determine what to demonstrate in System.out. In order to run the application using
 main, type the following script command (The part of the line after the '#' symbol are comments
 shown only for illustration):
+
 #load house.ppm and call it "house"
 
-'load res/house.ppm house'
+`load res/house.ppm house`
 
 #brighten house by adding 10
-'brighten house 10 house-brighten'
+
+`brighten house 10 house-brighten`
 
 #flip house vertically
-'vertical-flip house house-vertical'
+
+`vertical-flip house house-vertical`
 
 #flip the vertically flipped house horizontally
-'horizontal-flip house-vertical house-vertical-horizontal'
+
+`horizontal-flip house-vertical house-vertical-horizontal`
 
 #create a greyscale using only the value component, as an image house-value
-'value-component house house-value'
+
+`value-component house house-value`
 
 #save house-brighten
-'save res/house-brighten.ppm house-brighten'
+
+`save res/house-brighten.ppm house-brighten`
 
 #save house-value
-'save res/house-value.ppm house-value'
+
+`save res/house-value.ppm house-value`
 
 For HW05, a condition has been added. Now, there are two ways to use the main class. If its
 configuration takes in an empty program, just like how it used to work in HW04, it will take in
