@@ -197,7 +197,6 @@ new MaskProcessorModelImpl() instead of ImageProcessorModelImpl().
 
 ## Image Citation
 The house.ppm file was obtained from here:
-
 https://www.cs.cornell.edu/courses/cs664/2003fa/images/.
 
 The webpage source for this ppm file was found when searching "ppm image download" on the Google
@@ -205,7 +204,6 @@ search engine. The contributor of this project had resized the file originally c
 into 2 x 2 using the Preview app on Mac and changed its name to house.ppm.
 
 The dog.jpg and the doggie.jpg files were obtained from here:
-
 https://commons.wikimedia.org/wiki/File:Dog_Breeds.jpg.
 
 The webpage source for this jpg file was found when searching "dog" on the Google search engine.
