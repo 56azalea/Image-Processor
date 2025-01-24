@@ -196,6 +196,7 @@ program. At line 33, we changed the ImageProcessorModel to MaskProcessorModel an
 new MaskProcessorModelImpl() instead of ImageProcessorModelImpl().
 
 ## Image Citation
+
 The house.ppm file was obtained from here:
 https://www.cs.cornell.edu/courses/cs664/2003fa/images/.
 
